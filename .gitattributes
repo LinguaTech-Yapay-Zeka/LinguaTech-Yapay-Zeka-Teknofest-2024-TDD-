@@ -1,0 +1,6 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+model.safetensors filter=lfs diff=lfs merge=lfs -text
+variables.data-00000-of00001 filter=lfs diff=lfs merge=lfs -text
+tr_core_news_trf-1.0.0-py3-none-any.whl filter=lfs diff=lfs merge=lfs -text
+variables.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text

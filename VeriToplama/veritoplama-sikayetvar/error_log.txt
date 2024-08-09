@@ -1,0 +1,62 @@
+Bir hata oluştu: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=126.0.6478.185)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DC89EEB2+31554]
+	(No symbol) [0x00007FF6DC817EE9]
+	(No symbol) [0x00007FF6DC6D872A]
+	(No symbol) [0x00007FF6DC6C0FDD]
+	(No symbol) [0x00007FF6DC6C0CE0]
+	(No symbol) [0x00007FF6DC6BEC6D]
+	(No symbol) [0x00007FF6DC6BF47F]
+	(No symbol) [0x00007FF6DC6CE25E]
+	(No symbol) [0x00007FF6DC6E674F]
+	(No symbol) [0x00007FF6DC6EC16A]
+	(No symbol) [0x00007FF6DC6BFC0A]
+	(No symbol) [0x00007FF6DC6E656D]
+	(No symbol) [0x00007FF6DC76CCD5]
+	(No symbol) [0x00007FF6DC74CDD3]
+	(No symbol) [0x00007FF6DC71A33B]
+	(No symbol) [0x00007FF6DC71AED1]
+	GetHandleVerifier [0x00007FF6DCBA8B2D+3217341]
+	GetHandleVerifier [0x00007FF6DCBF5AF3+3532675]
+	GetHandleVerifier [0x00007FF6DCBEB0F0+3489152]
+	GetHandleVerifier [0x00007FF6DC94E786+750614]
+	(No symbol) [0x00007FF6DC82376F]
+	(No symbol) [0x00007FF6DC81EB24]
+	(No symbol) [0x00007FF6DC81ECB2]
+	(No symbol) [0x00007FF6DC80E17F]
+	BaseThreadInitThunk [0x00007FFFE89B257D+29]
+	RtlUserThreadStart [0x00007FFFEA30AF28+40]
+
+Bir hata oluştu: write() argument must be str, not list
+Bir hata oluştu: write() argument must be str, not list
+Bir hata oluştu: 'set' object has no attribute 'append'
+Bir hata oluştu: 'set' object has no attribute 'append'
+Bir hata oluştu: unhashable type: 'list'
+Zaman aşımı hatası: https://www.sikayetvar.com/bim?page=211
+Zaman aşımı hatası: https://www.sikayetvar.com/vestel?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/dolap?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/karaca-zuccaciye?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/flo-ayakkabi?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/exxen?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/teknosa?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/getir?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/pttavm?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/lc-waikiki?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/n11?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/passolig?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/ebebek?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/payfix?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/sendeo?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/beko?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/trendyol-express?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/teb?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/turkiye-sigorta?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/ajet-anadolu-jet?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/d-smart?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/bosch?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/obilet?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/mavi?page=1
+Zaman aşımı hatası: https://www.sikayetvar.com/enpara?page=1
+Bir hata oluştu: [Errno 13] Permission denied: 'sikayetvar-144-markasal-sikayetler-URL-Listesi.csv'
+https://www.sikayetvar.com/penti/penti-geri-iade-sorunu-1
