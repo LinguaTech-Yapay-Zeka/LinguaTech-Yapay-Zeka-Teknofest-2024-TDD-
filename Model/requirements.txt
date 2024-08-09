@@ -73,7 +73,6 @@ thinc==8.1.12
 tokenizers==0.13.3
 torch==2.4.0
 tqdm==4.66.5
-tr-core-news-trf @ file:///C:/Users/mertc/OneDrive/Masa%C3%BCst%C3%BC/iku-teknofest-ieee-ilkyapim/model/tr_core_news_trf-1.0.0-py3-none-any.whl#sha256=336e96402cb9f64a786444a916ce591fc21e1456894ee391312780fd5b29a011
 transformers==4.25.1
 typer==0.4.2
 typing_extensions==4.12.2
