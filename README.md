@@ -8,7 +8,7 @@
 ## Kullanlan Veri Setleri
 * [Huggingface Turkish Dataset by Winvoker](https://huggingface.co/datasets/winvoker/turkish-sentiment-analysis-dataset)
 * [Huggingface NER Dataset by Turkish NLP Suite](https://huggingface.co/datasets/turkish-nlp-suite/turkish-wikiNER)
-* [Kendi Veri Setimiz](VeriSeti\sikayetler.csv)
+* [Kendi Veri Setimiz](VeriSeti/sikayetler.csv)
 
 ## Model Kullanım Yönergesi
 **Gerekli Python sürümü: 3.10.11**
