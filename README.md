@@ -5,7 +5,7 @@
 ## Proje İş Akışı
 ![](READMEsrc/isakisi.png)
 
-## Kullanlan Veri Setleri
+## Kullanılan Veri Setleri
 * [Huggingface Turkish Dataset by Winvoker](https://huggingface.co/datasets/winvoker/turkish-sentiment-analysis-dataset)
 * [Huggingface NER Dataset by Turkish NLP Suite](https://huggingface.co/datasets/turkish-nlp-suite/turkish-wikiNER)
 * [Kendi Veri Setimiz](VeriSeti/sikayetler.csv)
