@@ -74,9 +74,6 @@ def entitylist(text):
     return entity_list
 
 
-nlp = spacy.load('tr_core_news_trf')
-
-
 def phrase_separator(entity_phrases):
     new_dict = defaultdict(list)
     for key, value in entity_phrases.items():
@@ -92,6 +89,8 @@ def phrase_separator(entity_phrases):
             string = ' '.join(new_list)
             new_dict[key].append(string)
     return new_dict
+
+nlp = spacy.load('tr_core_news_trf')
 
 
 def get_entity_phrases(text, entities):
@@ -150,7 +149,6 @@ with open('tokenizer.pkl', 'rb') as file:
 
 tokenizer = tokenizer_from_json(tokenizer_json)
 
-
 def predict_sentiment(text):
 
 
@@ -176,11 +174,7 @@ def predict_sentiment(text):
     return predicted_sentiment, prediction[0]
 
 
-def calistir(text):
-    entityler = entitylist(text)
-
-    entity_phrases = get_entity_phrases(text, entityler)
-
+def entity_phrases_sentiment(entityler, entity_phrases):
     results = []
     for entity in entityler:
         if entity in entity_phrases:
@@ -188,7 +182,6 @@ def calistir(text):
             for phrase in entity_phrases[entity]:
                 sentiment, scores = predict_sentiment(phrase)
                 sentiments.append(sentiment)
-
 
             if len(sentiments) > 1:
                 for unique_sentiment in set(sentiments):
@@ -199,6 +192,14 @@ def calistir(text):
         else:
 
             results.append({"entity": entity, "sentiment": 'nötr'})
+    return results
+
+def calistir(text):
+    entityler = entitylist(text)
+
+    entity_phrases = get_entity_phrases(text, entityler)
+
+    results = entity_phrases_sentiment(entityler, entity_phrases)
 
     entity_list = entityler
     result = {
@@ -206,4 +207,3 @@ def calistir(text):
         "results": results
     }
     return result
-
